@@ -296,10 +296,18 @@ a#linkedin {
       border-radius: 4px;
 
 }
+a#linkedin:hover {
+  color: #ed8488;
+  border: 1px solid #ed8488;
+
+}
 a#download-resume {
     background: #e66f69;
     color: white;
     border-radius: 4px;
+}
+a#download-resume:hover {
+    background: #ed8488;
 }
 
 #portfolio {
@@ -408,6 +416,16 @@ a#download-resume {
 .button{
 	background: transparent;
 	border: 1px solid #fff;
+}
+.badge {
+  background-color: #e67069 !important;
+}
+a.btn.btn-danger.btn-lg.btn-block {
+color:  #e67069 !important;
+}
+a.btn.btn-danger.btn-lg.btn-block:hover {
+background-color:  #e67069 !important;
+color: white !important;
 }
 .button:hover {
     background: white;
