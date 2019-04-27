@@ -8,7 +8,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>Mrs. Janis lobry</title>
+  <title>Janis lobry - Portfolio 🚀</title>
 
   <!-- meta -->
   <meta charset="utf-8">
@@ -16,6 +16,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <!-- stylesheets -->
+
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/font_icon/css/pe-icon-7-stroke.css">
   <link rel="stylesheet" href="assets/font_icon/css/helper.css">
@@ -27,7 +28,9 @@
   <link rel="stylesheet" href="assets/css/animate.css">
   <link rel="stylesheet" href="assets/css/style.css">
 
-
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="icon" sizes="32x32" href="assets/images/favicon-32.png" type="image/png">
 
   <!-- google fonts -->
   <link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500|Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,100|Titillium+Web:400,200,300italic,300,200italic' rel='stylesheet' type='text/css'>
@@ -92,96 +95,98 @@
         <div class="col-lg-6">
           <div class="accordion" id="accordionExample">
 
-            <div class="col-3 card">
-              <div class="card-header" id="headingFour">
-                <h2 class="mb-0">
-                  <button class="btn btn-link title collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Formations
-                  </button>
-                </h2>
+
+
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h2>
+                    <a role="button" data-toggle="collapse" data-parent="#accordionExample" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Formations
+                    </a>
+                  </h2>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    <h3 id="titleCardPro" class="card-title">Études &amp; Formations</h3>
+
+                    <span class="badge badge-pill badge-sucess">2018-2019</span> École Centrale de Marseille
+                    Passerelle Numérique <br> ➔ Formation web développeuse full-stack </p>
+                    <span class="badge badge-pill badge-sucess">2015-2016</span> Lycée Poinso Chapuis
+                    <br> ➔ Bac professionnel Tapisserie d'ameublement
+                    </p>
+                    <span class="badge badge-pill badge-sucess">2010-2012</span> Collège Pierre Puget <br> ➔ Classes européennes</p>
+                    <span class="badge badge-pill badge-sucess">2007-2010</span> Collège Clair Soleil</p>
+                    <hr>
+                  </div>
+                </div>
               </div>
-              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample" aria-expanded="false" style="height: 0px;">
-                <div class="card-body">
-                  <h3 id="titleCardPro" class="card-title">Études &amp; Formations</h3>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h2>
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionExample" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Expériences
+                    </a>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    <h3 id="titleCardExp" class="card-title">Expériences professionnels</h3>
+                    <span class="badge badge-pill badge-sucess">Mars 2019</span> Stage en développement web - Laboratoire de Mécanique et d'acoustique <br>
+                    ➔ Création d'un intranet avec le CMS SPIP pour l'usage quotidien du personnel du laboratoire</p>
+                    <span class="badge badge-pill badge-danger">2014-2015</span> Paysagiste polyvalente
+                    <br> ➔ Travaux de réaménagement & création de jardin pour le compte de la Ville de Marseille.</p>
 
-                  <span class="badge badge-pill badge-sucess">2018-2019</span> École Centrale de Marseille
-                  Passerelle Numérique <br> ➔ Formation web développeuse full-stack </p>
-                  <span class="badge badge-pill badge-sucess">2015-2016</span> Lycée Poinso Chapuis
-                  <br> ➔ Bac professionnel Tapisserie d'ameublement
-                  </p>
-                  <span class="badge badge-pill badge-sucess">2010-2012</span> Collège Pierre Puget <br> ➔ Classes européennes</p>
-                  <span class="badge badge-pill badge-sucess">2007-2010</span> Collège Clair Soleil</p>
-                  <hr>
+                    <span class="badge badge-pill badge-danger">Fevrier 2011</span> Stage en entreprise vente &amp; distribution <br>
+                    ➔ Spécialisé dans le jeu vidéo et le multimédia</p>
 
+                    <hr>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h2>
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionExample" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Gestion de projet
+                      </a>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                      <ul id="elmCard" class="unstyled">
+                        <li><i class="icon-projet fab fa-git mr-2 fa-2x"></i>Github / git</li>
+                        <li><i class="icon-projet fas fa-sync-alt  fa-2x"></i>Scrum - Méthodes agiles</li>
+                        <li><i class="icon-projet fab fa-trello mr-2 fa-2x"></i>Trello</li>
+                        <li><i class="icon-projet fab fa-slack fa-2x"></i>Slack</li>
+
+                      </ul>
+                      <hr>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFour">
+                  <h2>
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionExample" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      CMS
+                    </a>
+                  </h2>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                  <div class="panel-body">
+                    <ul id="elmCard">
+                      <li><i class="icon-projet fab fa-wordpress fa-2x"></i>Wordpress</li>
+                      <li><i class="icon-projet fas fa-cogs fa-2x"></i>SPIP</li>
+
+                    </ul>
+                    <hr>
+                  </div>
                 </div>
               </div>
             </div>
 
-
-            <div class="col-3 card">
-              <div class="card-header" id="headingFive">
-                <h2 class="mb-0">
-                  <button class="btn btn-link btn-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    Expériences
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                <div class="card-body">
-                  <h3 id="titleCardExp" class="card-title">Expériences professionnels</h3>
-                  <span class="badge badge-pill badge-sucess">Mars 2019</span> Stage en développement web - Laboratoire de Mécanique et d'acoustique <br>
-                  ➔ Création d'un intranet avec le CMS SPIP pour l'usage quotidien du personnel du laboratoire</p>
-                  <span class="badge badge-pill badge-danger">2014-2015</span> Paysagiste polyvalente
-                  <br> ➔ Travaux de réaménagement & création de jardin pour le compte de la Ville de Marseille.</p>
-
-                  <span class="badge badge-pill badge-danger">Fevrier 2011</span> Stage en entreprise vente &amp; distribution <br>
-                  ➔ Spécialisé dans le jeu vidéo et le multimédia</p>
-
-                  <hr>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingSix">
-                <h2 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                    Gestion de projet
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-                <div class="card-body">
-                  <ul id="elmCard" class="unstyled">
-                    <li><i class="icon-projet fab fa-git mr-2 fa-2x"></i>Github / git</li>
-                    <li><i class="icon-projet fas fa-sync-alt  fa-2x"></i>Scrum - Méthodes agiles</li>
-                    <li><i class="icon-projet fab fa-trello mr-2 fa-2x"></i>Trello</li>
-                    <li><i class="icon-projet fab fa-slack fa-2x"></i>Slack</li>
-
-                  </ul>
-                  <hr>
-
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingSeven">
-                <h2 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                    CMS </button>
-                </h2>
-              </div>
-              <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
-                <div class="card-body">
-                  <ul id="elmCard">
-                    <li><i class="icon-projet fab fa-wordpress fa-2x"></i>Wordpress</li>
-                    <li><i class="icon-projet fas fa-cogs fa-2x"></i>SPIP</li>
-
-                  </ul>
-                  <hr>
-
-                </div>
-              </div>
-            </div>
           </div>
 
         </div>

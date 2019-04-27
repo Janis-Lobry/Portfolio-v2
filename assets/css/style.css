@@ -798,3 +798,12 @@ ol, ul {
     list-style: none !important;
     padding-left: 10px !important;
 }
+.panel-default>.panel-heading {
+    color: #333 !important;
+    background: none !important;
+    border: none !important;
+
+}
+.panel-default {
+   border: none !important;
+}
