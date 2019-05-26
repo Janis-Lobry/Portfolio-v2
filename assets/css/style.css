@@ -186,7 +186,7 @@ header{
 }
 
 .menu {
-    float: right;
+    float: right !important;
     font-size: 3em;
     color: #fff;
     padding-top: 10px;
