@@ -40,7 +40,7 @@ html, body {
 body {
 	font-family: 'Lato', sans-serif;
       font-weight: 300;
-      font-size: 14px;
+      font-size: 14px !important;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Dosis', sans-serif;
@@ -52,12 +52,15 @@ h4.subheadline {
   font-family: 'Raleway', sans-serif;
 
 }
+h2 {
+  font-size: 30px !important;
+}
 h4 {
 line-height: 1.6;
-font-size: 18px;
+font-size: 18px !important;
 }
 h5 {
-font-size: 14px;
+font-size: 14px !important;
 }
 
 a {
