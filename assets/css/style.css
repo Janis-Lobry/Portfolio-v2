@@ -492,7 +492,10 @@ color: white !important;
     color: #000;
 }
 .nav {
-      display: inherit;
+    display: inherit !important;
+}
+.jumbotron {
+  height: 468px;
 }
 .btn-center {
     display: block;
