@@ -40,6 +40,7 @@ html, body {
 body {
 	font-family: 'Lato', sans-serif;
       font-weight: 300;
+      font-size: 14px;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Dosis', sans-serif;
@@ -53,7 +54,12 @@ h4.subheadline {
 }
 h4 {
 line-height: 1.6;
+font-size: 18px;
 }
+h5 {
+font-size: 14px;
+}
+
 a {
 	color: #e66f69;
 	transition: 0.4s ease all;
