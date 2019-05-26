@@ -93,6 +93,10 @@ a:hover,a:active,a:focus{
 .github {
     margin-top: 60px !important;
 }
+.cards-desc {
+font-size: 15px !important;
+
+}
 .block_title {
     font-size: 4em;
     font-weight: 300;
@@ -742,6 +746,9 @@ footer {
 	    font-size: 11px;
 	    padding: 0px 35px;
 	}
+  .col-md-5 {
+    text-align: center;
+  }
 }
 
 @media all and (max-width: 991px) and (min-width: 768px) {
@@ -759,6 +766,9 @@ footer {
 	.pe-dj {
 		font-size: 6em;
 	}
+  .col-md-5 {
+    text-align: center;
+  }
 
 }
 
@@ -834,6 +844,9 @@ footer {
 	    width: 30px;
 	    height: 30px;
 	}
+  .col-md-5 {
+    text-align: center;
+  }
 
 }
 
