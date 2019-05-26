@@ -491,6 +491,9 @@ color: white !important;
     background: white;
     color: #000;
 }
+.nav {
+      display: inherit;
+}
 .btn-center {
     display: block;
     padding: 80px 0px 60px 0px;
