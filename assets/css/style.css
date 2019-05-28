@@ -128,9 +128,9 @@ font-size: 15px !important;
     margin-right: -42%;
 }
 
-/* .row-pro {
+.row-pro {
     margin-top: 100px;
-} */
+}
 .list-techno {
   font-size: 20px !important;
 }
@@ -913,7 +913,7 @@ input {
 }
 
 .marge-scroll {
-  margin-top: 50rpx;
+  /* margin-top: 50px; */
       font-size: 50px;
 }
 
